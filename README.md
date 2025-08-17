@@ -1,5 +1,3 @@
-
-````markdown
 # Task 7 – Creating Views (SQL Developer Internship)
 
 ## 📌 Objective
@@ -24,8 +22,8 @@ CREATE TABLE Customers (
     email VARCHAR(100),
     city VARCHAR(50)
 );
-````
 
+```
 ### Orders Table
 
 ```sql
@@ -38,8 +36,6 @@ CREATE TABLE Orders (
     FOREIGN KEY (customer_id) REFERENCES Customers(customer_id)
 );
 ```
-
----
 
 ## 📑 Views Created
 
